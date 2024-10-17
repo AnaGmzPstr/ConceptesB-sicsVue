@@ -1,5 +1,6 @@
 <script setup>
 import { ref,reactive } from 'vue'
+import Computed1 from './components/computed1.vue'
 
 // exemple funció ref()
 
@@ -80,6 +81,10 @@ const logarse = () =>{
 // v-show
 const mostrar = ref(false)
 
+// computed 
+
+
+
 </script>
 
 <template>
@@ -141,6 +146,11 @@ const mostrar = ref(false)
      <div>
       <h2>Directiva v-on</h2>
       <p>Es equivalente a @click, mira el código</p>
+     </div>
+    <!-- Computed -->
+     <div>
+      <h2>Computed</h2>
+      <Computed1></Computed1>
      </div>
 
 </template>
